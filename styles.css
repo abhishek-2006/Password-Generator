@@ -1,0 +1,107 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #0078D4, #72C6EF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    line-height: 1.8; /* Increased line spacing */
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 450px; /* Slightly larger for better spacing */
+}
+
+h1 {
+    font-size: 36px; /* Increased font size for the title */
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+    font-size: 16px; /* Larger subtitle font size */
+    margin-bottom: 25px; /* More spacing below subtitle */
+    color: #E3F3FE;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px; /* More padding for spacing */
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+.settings {
+    margin-bottom: 25px; /* More space below settings section */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Increased gap between inputs */
+}
+
+label {
+    font-size: 16px; /* Larger labels */
+    font-weight: 600;
+    color: #0078D4;
+    text-align: left;
+}
+
+input, select {
+    padding: 14px; /* More padding inside inputs */
+    font-size: 18px; /* Larger input text */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input::placeholder {
+    color: #aaa;
+    font-size: 16px; /* Adjust placeholder size */
+}
+
+button {
+    background: linear-gradient(to right, #0078D4, #005BBB);
+    color: white;
+    padding: 18px; /* Larger button size */
+    border: none;
+    border-radius: 8px;
+    font-size: 18px; /* Larger button font size */
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.password-box {
+    margin-top: 20px;
+}
+
+#password {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    color: #0078D4;
+    background: #f8f9fc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
