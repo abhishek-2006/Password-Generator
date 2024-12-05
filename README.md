@@ -23,10 +23,11 @@ A simple web app to generate secure passwords with customizable length and compl
    git clone https://github.com/your-username/password-generator.git
 
 2. Open index.html in your browser.
-📄 License
+
+## 📄 License
 Licensed under the MIT License. Feel free to use and modify.
 
-👨‍💻 Author
+## 👨‍💻 Author
 Developed by Abhishek Shah.
 
 ⭐ Give this project a star if you found it helpful!
