@@ -20,7 +20,7 @@ A simple web app to generate secure passwords with customizable length and compl
 ## 📦 Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/password-generator.git
+   git clone https://github.com/abhishek-2006/password-generator.git
 
 2. Open index.html in your browser.
 
